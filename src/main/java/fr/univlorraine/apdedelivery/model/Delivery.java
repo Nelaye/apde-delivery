@@ -32,8 +32,7 @@ public class Delivery {
 
     public Delivery (){}
 
-    public Delivery(int id, int buyer, Date date, String address){
-        this.id = id;
+    public Delivery(int buyer, Date date, String address){
         this.buyer = buyer;
         this.date = date;
         this.address = address;
