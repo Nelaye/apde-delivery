@@ -19,6 +19,7 @@ public class DeliveryController {
 
     @GetMapping(value = "delivery")
     public Iterable<Delivery> findAll(){
+        System.out.println(dao.findAll());
         return dao.findAll();
     }
 
